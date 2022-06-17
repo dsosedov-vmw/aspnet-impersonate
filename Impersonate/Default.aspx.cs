@@ -11,7 +11,10 @@ namespace Impersonate
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                labelUser.Text = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+            }
         }
     }
 }
