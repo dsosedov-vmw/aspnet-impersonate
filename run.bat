@@ -1,2 +1,2 @@
 docker build -t dsosedov/impersonate-aspnet .
-docker run --rm -it -p 8000:8080 dsosedov/impersonate-aspnet
+docker run --rm -it -p 8080:80 dsosedov/impersonate-aspnet
