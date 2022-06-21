@@ -4,7 +4,7 @@
 
     <div class="jumbotron">
         <h1><asp:Label ID="labelUser" runat="server"></asp:Label></h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
+        <p class="lead">LOGON_USER: <asp:Label ID="labelVar" runat="server"></asp:Label></p>
         <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
 
